@@ -91,3 +91,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.toggle.active {
+  background: #ff4d89;
+}
