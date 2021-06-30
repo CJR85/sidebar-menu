@@ -79,6 +79,11 @@
     ></script>
 
     <script>
+      let menuToggle = document.querySelector('.toggle');
+      menuToggle.onclick = function () {
+        menuToggle.classList.toggle('active');
+      };
+
       // Add active class to selected items on list
       let list = document.querySelectorAll('.list');
       for (let i = 0; i < list.length; i++) {
