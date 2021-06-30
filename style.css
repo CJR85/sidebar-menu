@@ -90,8 +90,18 @@ body {
   background: #4d5bf9;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .toggle.active {
   background: #ff4d89;
+}
+
+.toggle ion-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 34px;
+  display: none;
 }
