@@ -105,3 +105,13 @@ body {
   font-size: 34px;
   display: none;
 }
+
+.toggle ion-icon.open,
+.toggle.active ion-icon.close {
+  display: block;
+}
+
+.toggle ion-icon.close,
+.toggle.active ion-icon.open {
+  display: none;
+}
